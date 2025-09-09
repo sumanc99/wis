@@ -1,10 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+import Home from './Home.jsx'
+import Choice from './Choice.jsx'
+import Fyler from './Fyler.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Home/>
+    {/* <Choice/> */}
+    {/* <Fyler/> */}
   </StrictMode>,
 )
